@@ -1,5 +1,6 @@
-# HTML-CSS
+# HTML-CSS 🐱
 Challenges from FrontendMentor 
+👩‍💻🐱
 # INDEX
 1. ProfileCard- Scss
 2. 3-column preview card component
