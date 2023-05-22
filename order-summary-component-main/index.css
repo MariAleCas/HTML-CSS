@@ -1,0 +1,68 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+
+}
+
+#container {
+  background-color: hsl(245, 75%, 52%);
+  display: grid;
+  border-radius: 20px;
+
+}
+
+header .illustration-hero {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+#main {
+  display: grid;
+}
+
+.information {
+  text-align: center;
+}
+
+.plan {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 33px 35px 30px;
+  padding: 20px 25px 20px 25px;
+}
+
+.plan-text {
+  display: grid;
+  margin: 0 20px 0 0;
+  padding: 0px;
+}
+
+.plan-text p:nth-child(1) {
+  margin: 0 0 3px 0;
+}
+
+.plan-text p:nth-child(2) {
+  margin: 0 0 0 0;
+}
+
+
+.order {
+  margin: 20px 33px 20px 30px;
+  display: grid;
+  align-content: center;
+}
+
+.order button {
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+.order button:nth-child(2) {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+}
