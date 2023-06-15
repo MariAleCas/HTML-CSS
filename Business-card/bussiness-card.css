@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  background-color: #DFA67B;
+  border-radius: 70px;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  margin: 0px 10px 0px 10px;
+}
+
+.name {
+  background-color: #F4B183;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  padding-bottom: 10px;
+  height: 143px;
+
+}
+
+
+.name img {
+  border-radius: 60%;
+  width: 50%;
+  border-color: #FFF2CC;
+  border-style: solid;
+  position: absolute;
+  left: 88px;
+  top: 261px
+}
+
+.info {
+  display: grid;
+  align-content: center;
+  margin-top: 48px;
+  text-align: center;
+  font-family: 'Salsa';
+  padding: 20px;
+}
+
+.info :nth-child(1) {
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFF2CC;
+
+}
+
+.info :nth-child(2) {
+  font-family: 'Salsa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFDBA4;
+}
+
+.contact {
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact p {
+  text-align: center;
+  font-family: 'Salsa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFF2CC;
+}
+
+
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.number img {
+  width: 5%;
+  padding-right: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social img {
+  padding-right: 10px;
+  padding-bottom: 15px;
+  width: 8%;
+}
+
+.social :nth-child(3) {
+
+  width: 15%;
+
+}
