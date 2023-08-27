@@ -1,19 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 body {
   background-color: hsl(225, 100%, 94%);
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
 
 }
 
 #container {
-  background-color: hsl(245, 75%, 52%);
+  background-color: hsl(225, 100%, 98%);
   display: grid;
   border-radius: 20px;
+  margin: 60px 10px 10px 10px;
 
 }
 
 header .illustration-hero {
   width: 100%;
   height: auto;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 #main {
@@ -22,36 +28,58 @@ header .illustration-hero {
 
 .information {
   text-align: center;
+  padding: 0px 30px 0px 30px;
+}
+
+.information h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.information p {
+  color: hsl(224, 23%, 55%);
+  line-height: 30px;
+  font-weight: 700;
 }
 
 .plan {
-  background-color: hsl(225, 100%, 98%);
+  background-color: hsl(240, 55%, 96%);
   border-radius: 10px;
   display: flex;
   text-align: center;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 33px 35px 30px;
-  padding: 20px 25px 20px 25px;
+  margin: 15px 33px 20px 30px;
+  padding: 15px 20px 15px 10px;
 }
 
 .plan-text {
   display: grid;
-  margin: 0 20px 0 0;
+  margin: 0 23px 0 0;
   padding: 0px;
+
 }
 
 .plan-text p:nth-child(1) {
   margin: 0 0 3px 0;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
 }
 
 .plan-text p:nth-child(2) {
   margin: 0 0 0 0;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+
 }
 
+.plan a {
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
 
 .order {
-  margin: 20px 33px 20px 30px;
+  margin: 10px 33px 0px 30px;
   display: grid;
   align-content: center;
 }
@@ -62,7 +90,20 @@ header .illustration-hero {
   text-align: center;
 }
 
-.order button:nth-child(2) {
+.order button:nth-child(1) {
   background-color: hsl(245, 75%, 52%);
   border: none;
+  color: hsl(225, 100%, 98%);
+  font-weight: 700;
+  box-shadow: 0px 7px 60px 0px rgba(56, 40, 224, 0.3);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+}
+
+.order a {
+  text-align: center;
+  text-decoration: none;
+  margin: 30px 10px 30px 10px;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
 }

@@ -115,3 +115,5 @@ body {
   width: 15%;
 
 }
+
+@media (min-width: 375px) {}
